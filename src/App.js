@@ -11,7 +11,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import Conocenos from "./components/js/Conocenos";
-
+import Inicio from "./components/js/Inicio";
 import Carrito from "./components/js/Carrito";
 import Contacto from "./components/js/Contacto";
 import Servicios from "./components/js/Servicios";
@@ -322,7 +322,8 @@ function App() {
                 setBanderaProductos1={setBanderaProductos1}
                 setSuma={setSuma}
               />
-              <MainVideo video={video} />
+             {/*  <MainVideo video={video} /> */}
+              <Inicio></Inicio>
               <Row>
                 <Container className="bg-white">
                   <Route path="/Home/Conocenos">

@@ -74,12 +74,12 @@
 }
 
 .nav-info {
-  background-color: #2D1747;
+  background-color: #0a0a0a;
 }
 /*50, 144, 166, 0.8*/
 /*(to right, rgba(50, 144, 166, 1), rgba(232, 176, 109, 0.6));*/
 .nav-info1{
-  background-color:rgb(54, 3, 52, 0.3);
+  background-color:rgba(12, 12, 12, 0.3);
 }
 .src-header{
   color:rgb(102, 32, 66); 
@@ -92,27 +92,27 @@
 }
 
 .fuente{
-  color:rgb(54, 3, 52); 
+  color:rgb(10, 10, 10); 
 }
 .font{
-  color:#DBD81A;
+  color:#0a0a0a;
 }
 
 .src-header:hover{
   color:  rgb(166, 50, 156);
 }
 .patita1{
-  color: yellow;
+  color: #f8f0ed;
   font-size: 2rem;
 } 
 
 .patita2{
-  color: #DBD81A;
+  color: #DB4A0F;
   font-size: 2rem;
 } 
  
 .text2{
-  color: #DB4A0F;
+  color: #faf7f5;
 }
 
 .cart{
@@ -125,9 +125,6 @@
 .letras{
   color: #DBD81A;
 }
-
-
-
 
 
 /*animacion modal*/
@@ -157,7 +154,7 @@
 
 @keyframes blinkTextCursor {
   from {
-        border-right-color: rgba(255, 255, 255, 0.75);
+        border-right-color: rgba(10, 10, 10, 0.75);
   }
   to {
         border-right-color: transparent;
@@ -203,7 +200,7 @@ right:0;
   margin-bottom: 5px;
 }
 .orange{
-  background-color: #DBD81A;
+  background-color: #db711a;
   border:0;
   bottom:#2D1747 ;
 }
@@ -287,7 +284,7 @@ right:0;
   display: block;
   }
   .i:hover{
-   background-color: yellow; 
+   background-color: rgb(255, 72, 0); 
   }
   .butnsesion:hover{
     background-color: #2D1747;
@@ -329,7 +326,7 @@ right:0;
 .btn:hover{
   border:0;
   border-style: none ;
-  background-color: rgba(24, 31, 75, 0.9);
+  background-color: rgba(75, 53, 24, 0.9);
 }
 .btn:link{
   border:0;
@@ -340,6 +337,16 @@ right:0;
   background-color:none;  
 }
 .navbar-toggler{
-background-color: #DBD81A;
-  color:#DBD81A; 
+  background-color: #ffc73b;
+  background-image: linear-gradient(0deg, #ffc73b 0%, #FF2525 65%);
 }
+
+.navnuevo{
+  background-color: #ffc73b;
+background-image: linear-gradient(0deg, #ffc73b 0%, #FF2525 65%);
+}
+
+.fuentenuevo{
+  font-family: 'Roboto', sans-serif;
+}
+

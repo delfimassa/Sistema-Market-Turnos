@@ -54,8 +54,8 @@ export default function Contacto() {
   return (
     <Fragment>
       <Container>
-        <Row>
-          <div className="col-12 col-md-6 d-flex flex-column mt-5">
+        <div className="row ">
+          <div className="col-12 col-md-6  mt-5">
             <h3 className="fuente text-center">Formulario de Contacto</h3>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formNombre">
@@ -112,7 +112,7 @@ export default function Contacto() {
 
           <div className="col-12 col-md-6 mt-5">
             <h2 className="font text-center mt-5">
-              <i className="fa fa-home"></i> Dirección
+              <i className="fa fa-home patita2"></i> Dirección
             </h2>
             <ul className="list-unstyled text-center">
               <li> Rolling St. 38 </li>
@@ -120,7 +120,7 @@ export default function Contacto() {
             </ul>
 
             <h2 className="font text-center">
-              <i className="fa fa-phone-square"></i> Telefonos
+              <i className="fa fa-phone-square patita2"></i> Telefonos
             </h2>
             <ul className="list-unstyled text-center">
               <li> (0381) 438 2324 </li>
@@ -128,13 +128,13 @@ export default function Contacto() {
             </ul>
 
             <h2 className="font text-center">
-              <i className="fa fa-envelope" aria-hidden="true"></i> Email
+              <i className="fa fa-envelope patita2" aria-hidden="true"></i> Email
             </h2>
             <ul className="list-unstyled text-center">
               <li>veterinaria@gmail.com </li>
             </ul>
           </div>
-        </Row>
+        </div>
       </Container>
     </Fragment>
   );

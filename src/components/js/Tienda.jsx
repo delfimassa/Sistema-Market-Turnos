@@ -204,7 +204,7 @@ export default function Tienda({
           </Col>
         </Row>
         <Row>
-          <Col className="d-flex justify-content-center">
+          <Col className="d-flex justify-content-center ">
             {paginacionProductos ? (
               <Paginacion
                 paginacionData={productos}

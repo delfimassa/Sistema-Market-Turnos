@@ -9,7 +9,7 @@ import {
   Dropdown,
   ButtonGroup,
   Row,
-  Col,
+  Col
 } from "react-bootstrap";
 import { Link, Redirect } from "react-router-dom";
 import { useHistory } from "react-router-dom";
@@ -36,7 +36,7 @@ export default function Navegador({
   setEncontrado,
   search,
   setSearch,
-  setSuma,
+  setSuma
 }) {
   const history = useHistory();
 
@@ -53,11 +53,6 @@ export default function Navegador({
   return (
     <>
       <Container fluid className=" fixed-top nav-info ">
-        <Row
-          className="
-          d-flex justify-content-end "
-        >
-          <Col className="col-10 ">
             <Navbar expand="lg">
               <Navbar.Brand>
                 <Link to="/Home" className="nav-link m-0">
@@ -70,10 +65,9 @@ export default function Navegador({
                 aria-controls="basic-navbar-nav "
                 className="nav-info "
               />
-
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className=" mr-5">
-                  <div className=" d-flex flex-column flex-lg-row">
+                <Nav className=" mr-auto">
+                  
                     <div className="mt-3 d-flex flex-column flex-lg-row">
                       <Link
                         to="/Home/Conocenos"
@@ -189,13 +183,8 @@ export default function Navegador({
                         <p className="text-light ">${suma}</p>
                       </div>
                     </div>
-                  </div>
                 </Nav>
-              </Navbar.Collapse>
-            </Navbar>
-          </Col>
-
-          <Col className="lg-col-2 m-auto ">
+              
             <Form className="d-flex nowrap">
               <FormControl
                 type="text"
@@ -210,8 +199,8 @@ export default function Navegador({
                 <i className="fas fa-search patita2"></i>
               </Button>
             </Form>
-          </Col>
-        </Row>
+            </Navbar.Collapse>
+          </Navbar>
       </Container>
     </>
   );

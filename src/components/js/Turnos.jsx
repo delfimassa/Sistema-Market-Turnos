@@ -125,7 +125,7 @@ export default function Turnos({
 
       <Row>
         <Button
-          className="mt-5 mb-5 nav-info mx-auto"
+          className="mt-5 mb-5 nav-info orange mx-auto"
           size="lg"
           onClick={handleOnclick}
         >
