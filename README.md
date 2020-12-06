@@ -1,23 +1,23 @@
-#  Proyecto Veterinaria
-¡Hola! ¡Bienvenido a nuestro proyecto!, déjanos contarte un poquito sobre lo que nuestro proyecto trata. Éste proyecto es una página Web de una Veterinaria en la cual se pueden, mediante un acceso de administrador, crear, editar y eliminar productos típicos de una veterinaria. Asimismo, se pueden ver:
+#  Proyecto
+¡Hola! ¡Bienvenido a nuestro proyecto!, déjanos contarte un poquito sobre lo que nuestro proyecto trata. Éste proyecto es una página Web en la cual se pueden, mediante un acceso de administrador, crear, editar y eliminar productos. Asimismo, se pueden ver:
 1. Historiales de Venta.
 2. Turnos programados del día y de la semana.
 3. Envío masivo de mails de ofertas.
 ​
 Creado en Front-End con las tecnologías [ReactJS](https://es.reactjs.org/), [NodeJS](https://nodejs.org/es/), [Express](https://expressjs.com/es/), [Mongoose](https://mongoosejs.com/) y [React-Bootstrap](https://react-bootstrap.github.io/). Y tecnología Back-End utilizando [MongoDB](http://mongodb.com/), [Heroku](https://dashboard.heroku.com/apps) y [Postman](https://www.postman.com/).
 # Requisitos Previos 📋
-Previamente, debes tener instalado Visual Studio Code u otro cualquier editor de código y luego clonar el repositorio Git. Además, tienes que tener instalado **NodeJS**, puedes descargarlo desde el siguiente Link: https://nodejs.org/es/
+Previamente, debes tener instalado Visual Studio Code u otro editor de código y luego clonar el repositorio Git. Además, tienes que tener instalado **NodeJS**, puedes descargarlo desde el siguiente Link: https://nodejs.org/es/
 ​
 ​
 # Instalación 🔨
 Primero debemos traer los repositorios GIT, los cuáles serían:
 - Para traer el repositorio de Front-End:
 ​
-`git clone https://gitlab.com/rollingcode-5a/veterinaria-cliente.git` 
+`git clone https://github.com/delfimassa/Sistema-Market-Turnos` 
 
  - Luego de traer el repositorio, para traer todos los cambios deberás de hacer:
 
- `git pull origin gimena`
+ `git pull`
 ​
  - Luego ejecutar el comando de **NodeJS** para traer las diversas librerías que utilizamos 😄😄:
   
@@ -35,7 +35,7 @@ Primero debemos traer los repositorios GIT, los cuáles serían:
 ​
  - Para traer el repositorio de Back-End
  
-`git clone https://gitlab.com/rollingcode-5a/veterinaria-servidor.git`
+`git clone https://github.com/delfimassa/Sistema-Market-Turnos-Back.git`
  
   - Para instalar las dependencias también ejecutamos:
   
@@ -75,10 +75,12 @@ En caso de que hagas cualquier edición, la página va a recargarse. Y en caso d
  - Gimena Ugozzoli
  - Mercedes Sánchez
  - Agustín Gigli
+ - Delfina Massa
+ - Rosario Serrano
 ​
 ## Link del sitio web 🌐
 ​
- - https://serene-agnesi-481ff1.netlify.app/
+ - 
 ​
 ### Agradecimientos 🎁
 ------
