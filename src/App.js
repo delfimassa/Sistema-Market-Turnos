@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from "react";
-import { Container, Row, Button } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import "./App.css";
 import Navegador from "./components/Navegador";
 import dotenv from "dotenv";
@@ -8,7 +8,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect,
+  Redirect
 } from "react-router-dom";
 import Conocenos from "./components/js/Conocenos";
 import Inicio from "./components/js/Inicio";
@@ -264,8 +264,26 @@ function App() {
     scrollTo(500);
   };
   return (
-    <Fragment>
       <Router>
+         <Navegador
+                ModalShow={ModalShow}
+                setModalShow={setModalShow}
+                prod={prod}
+                setProd={setProd}
+                productos={productos}
+                suma={suma}
+                carroTotal={carroTotal}
+                autenticado={autenticado}
+                token={token}
+                setToken={setToken}
+                usuarioAuth={usuarioAuth}
+                setUsuarioAuth={setUsuarioAuth}
+                setAutenticado={setAutenticado}
+                search={search}
+                setSearch={setSearch}
+                setBanderaProductos1={setBanderaProductos1}
+                setSuma={setSuma}
+              />
         <Switch>
           <Route path="/Admin">
             {autenticado && !usuarioAuth.isUser ? (
@@ -300,39 +318,13 @@ function App() {
           />*/
             )}
           </Route>
-
-          <Route path="/">
-            <Container fluid className="p-0" style={{ overflow: "hidden" }}>
-              <Navegador
-                ModalShow={ModalShow}
-                setModalShow={setModalShow}
-                prod={prod}
-                setProd={setProd}
-                productos={productos}
-                suma={suma}
-                carroTotal={carroTotal}
-                autenticado={autenticado}
-                token={token}
-                setToken={setToken}
-                usuarioAuth={usuarioAuth}
-                setUsuarioAuth={setUsuarioAuth}
-                setAutenticado={setAutenticado}
-                search={search}
-                setSearch={setSearch}
-                setBanderaProductos1={setBanderaProductos1}
-                setSuma={setSuma}
-              />
-             {/*  <MainVideo video={video} /> */}
-              <Inicio></Inicio>
-              <Row>
-                <Container className="bg-white">
                   <Route path="/Home/Conocenos">
                     <Conocenos />
                   </Route>
                   <Route path="/Home/Servicios">
                     <Servicios />
                   </Route>
-                </Container>
+               
                 <Route path="/Home/Tienda">
                   <Tienda
                     ModalShow={ModalShow}
@@ -361,7 +353,6 @@ function App() {
                     setAutenticado={setAutenticado}
                   />
                 </Route>
-                <Container>
                   <Route path="/Home/Contacto">
                     <Contacto />
                   </Route>
@@ -402,14 +393,11 @@ function App() {
                       setTurnos={setTurnos}
                     />
                   </Route>
-                </Container>
-                <Footer />
-              </Row>
-            </Container>
-          </Route>
-        </Switch>
+              <Route path="/Home/"><Inicio></Inicio>     
+           </Route>
+        </Switch> 
+        <Footer />
       </Router>
-    </Fragment>
   );
 }
 export default App;

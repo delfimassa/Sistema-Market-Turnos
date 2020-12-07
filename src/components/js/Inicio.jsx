@@ -5,7 +5,7 @@ export default function Inicio() {
   return (
     <div>
       <h3>INCIO</h3>
-      <div  >
+     
             <Carousel>
   <Carousel.Item>
     <img
@@ -44,6 +44,5 @@ export default function Inicio() {
   </Carousel.Item>
 </Carousel>
         </div>
-    </div>
   );
 }
