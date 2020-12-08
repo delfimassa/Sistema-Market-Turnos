@@ -74,21 +74,22 @@
 }
 
 .nav-info {
-  background-color: #024959;
+  background-color: #edc988;
+  
 }
 /*50, 144, 166, 0.8*/
 /*(to right, rgba(50, 144, 166, 1), rgba(232, 176, 109, 0.6));*/
 .nav-info1{
-  background-color:#024959;
+  background-color:#d7385e;
 }
 .src-header{
-  color:rgb(102, 32, 66); 
+  color:rgb(243, 227, 235); 
   font-size: 1rem;
 }
 .iconFont{
   font-size:80px;
   text-align: center;
-  color:#2D1747;
+  color:#efeef0;
 }
 
 .fuente{
@@ -107,7 +108,7 @@
 } 
 
 .patita2{
-  color: #d99830;
+  color: #25bb96;
   font-size: 2rem;
 } 
  
@@ -123,7 +124,7 @@
   color: #DBD81A;
 }*/
 .letras{
-  color: #DBD81A;
+  color: #f3f3f0;
 }
 
 
@@ -176,7 +177,7 @@
 .carrito{
   font-size:0.3 ;
   position:relative;
-  color: rgb(54, 3, 52);
+  color: rgb(238, 227, 238);
 }
 .letravideo{
   position:absolute;
@@ -200,13 +201,13 @@ right:0;
   margin-bottom: 5px;
 }
 .orange{
-  background-color: #d99830;
+  background-color: #25bb96;
   border:0;
-  bottom:#2D1747 ;
+  bottom:#eae7ee ;
 }
 .orange1{
-  background-color: #2D1747;
-  color:#DBD81A;
+  
+  color:#f1f1eb;
   
 
 
@@ -283,21 +284,21 @@ right:0;
   .table-wrapper-scroll-y {
   display: block;
   }
-  .i:hover{
+  /* .i:hover{
    background-color: rgb(255, 72, 0); 
-  }
+  } */
   .butnsesion:hover{
-    background-color: #2D1747;
+    background-color: #f3edfa;
   }
   .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #2D1747;
+    background-color: #f9f6fc;
     border-color:grey;
 }
 
 .page-link {
-  color: #2D1747;
+  color: #f0edf3;
 
 }
 .card1{
@@ -316,7 +317,7 @@ right:0;
 }
 .iconFont:Hover{
 
-  color:#DBD81A; 
+  color:#14140a; 
 
 }
 .btn{

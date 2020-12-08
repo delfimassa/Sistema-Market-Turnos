@@ -299,7 +299,7 @@ function Registro(props) {
             </Button>
           </Form>
         </Modal.Body>
-        <Modal.Footer className="nav-info"></Modal.Footer>
+        <Modal.Footer className="nav-info1"></Modal.Footer>
       </Modal>
     </>
   );

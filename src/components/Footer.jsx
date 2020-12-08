@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <Container fluid className="nav-info py-4">
+    <Container fluid className="nav-info1 py-4">
       <section className="py-4">
         <div className="text-center row text-light py-3">
           <div className="col-sm-12 col-md-4 list-unstyled mb-4 d-flex flex-column justify-content-around">

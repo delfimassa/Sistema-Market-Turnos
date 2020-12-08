@@ -238,7 +238,7 @@ export default function ModalTurnos({
               style={{ height: "11rem" }}
             />
 
-            <Modal.Header closeButton>
+            <Modal.Header className="nav-info"  closeButton>
               <Modal.Title>
                 <p className="line anim-typewriter mt-1 fuente">
                   Bienvenid@! Saque su turno online:
@@ -286,7 +286,7 @@ export default function ModalTurnos({
                 />
 
                 <Button
-                  className="mr-2 mt-1 mb-1 ml-1 orange1"
+                  className="mr-2 mt-1 mb-1 ml-1 orange"
                   onClick={() => {
                     turno.detalleTurno
                       ? setBandera2(true)
@@ -339,7 +339,7 @@ export default function ModalTurnos({
 
                 {!turno.diaHoraTurno ? (
                   <Button
-                    className="mr-1 ml-1 orange1"
+                    className="mr-1 ml-1 orange"
                     onClick={() => {
                       setBandera2(false);
                       setBandera(false);
@@ -353,7 +353,7 @@ export default function ModalTurnos({
 
                 {turno.diaHoraTurno ? (
                   <Button
-                    className="mr-1 ml-1 orange1"
+                    className="mr-1 ml-1 orange"
                     onClick={() => {
                       setBandera2(true);
                       setBandera(true);
@@ -412,7 +412,7 @@ export default function ModalTurnos({
                 </Form.Row>
 
                 <Button
-                  className="mr-1 ml-1 orange1"
+                  className="mr-1 ml-1 orange"
                   onClick={() => {
                     setNone(true);
                   }}
@@ -425,19 +425,19 @@ export default function ModalTurnos({
             ""
           )}
 
-          <Modal.Footer>
+          <Modal.Footer className="nav-info1">
             {none ? (
-              <p className="line anim-typewriter mt-2 text-success "></p>
+              <p className="line anim-typewriter mt-2  "></p>
             ) : (
               ""
             )}
             {none ? (
-              <Button className="orange1" type="onSubmit">
+              <Button className="orange" type="onSubmit">
                 {" "}
                 CONFIRMA TU RESERVA
               </Button>
             ) : (
-              <Button className="orange1" disabled type="onSubmit">
+              <Button className="orange" disabled type="onSubmit">
                 Envia tu reserva!
               </Button>
             )}

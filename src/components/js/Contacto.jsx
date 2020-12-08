@@ -54,10 +54,10 @@ export default function Contacto() {
   return (
     
       <section className="container mt-5">
-        <div className="row mt-3"> 
+        <div className="row mt-3 shadow"> 
        
           <div className="col-12 col-md-6 mt-5"> 
-          <h3 className=" text-center">Formulario de Contacto</h3>
+          <h3 className=" text-center"> Contactanos</h3>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formNombre">
                 <Form.Label>Motivo del Contacto</Form.Label>

@@ -6,7 +6,8 @@ export default function Conocenos() {
   return (
 
     <section className="container mt-5">
-      <Jumbotron className=" content m-2">
+      <div className="mt-5">
+      <Jumbotron >
          <h3 className="fuente text-center">Quienes somos</h3>
   <p>
     Somos una clínica veterinaria con más de 10 años de experiencia en el
@@ -29,7 +30,7 @@ export default function Conocenos() {
          
 
 </Jumbotron>
-      
+</div>
 
       {<Card_Flipp />}
     </section>

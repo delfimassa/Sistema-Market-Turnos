@@ -127,7 +127,7 @@ function Sesion(props) {
             </Button>
           </Form>
         </Modal.Body>
-        <Modal.Footer className="nav-info">
+        <Modal.Footer className="nav-info1">
           {/* Inicio de sesión */}
 
           <Button className="orange" onClick={Registrarse}>
