@@ -1,7 +1,9 @@
 import React from "react";
-import { Container, Row, Image } from "react-bootstrap";
+import { Container, } from "react-bootstrap";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
+import CardDeck from 'react-bootstrap/CardDeck';
+import Card from 'react-bootstrap/Card'
 import styled from "styled-components";
 import servicios1 from "../img/servicios1.jpg";
 import servicios2 from "../img/servicios2.jpg";
@@ -55,98 +57,65 @@ export default function Servicios() {
         </Carousel>
       </div>
 
-      <div className="text-center ">
+      <div className="jumbotron text-center container">
         <p className="letra1">
           Lo primero que tienes que saber es que amamos a los animales, tenemos
           personal dedicado y avocado a la salud de todos nuestros amigos
           peludos, por eso le damos a tu mascota el mejor cuidado. Te ofrecemos:
         </p>
-        <ul className="list-unstyled patita2 letra">
+        <ul className="list-unstyled ">
           <li>Consultario Veterinario 24hs</li>
           <li>Especialistas</li>
           <li>Internacion</li>
           <li>Cirugia</li>
           <li>Laboratorio propio</li>
-        </ul>
-      </div>
-
-      <div>
-        <img
-          src={servicios14}
-          className="float-right img-thumbnail rounded-lg borde"
-          width="304"
-          height="236"
-        ></img>
-
-        <Row className="letra1">
-          <p>
-            <i className="fas fa-paw patita2 mr-2"></i>Tenemos un gran equipo de
-            medicos veterinarios capacitados para darle atención integral a tu
-            mascota las 24HS - 365 dias del Año. Algunos servicios para tu
-            mascota en nuestro consultorio:
-          </p>
-          <ul>
-            <li>Revision general</li>
+          <li>Revision general</li>
             <li>Asistencia integral</li>
             <li>Vacunacion</li>
             <li>Desparasitaciones</li>
             <li>Certificado de salud</li>
             <li>Colocacion de microchip en mascotas</li>
-          </ul>
-        </Row>
+        </ul>
       </div>
-
-      <div>
-        <Row className="d-inline letra1">
-          <Image
-            src={servicios7}
-            className="float-left img-thumbnail mt-4 mr-3 borde"
-            width="304"
-            height="236"
-          />
-
-          <div className="mr-3 p-3">
-            <p>
-              <i className="fas fa-paw patita2 mr-2"></i>Gracias a nuestra
+<section className="row text-center justify-content-center py-3">
+<CardDeck>
+  <Card>
+    <Card.Img variant="top" src={servicios14} />
+    <Card.Body>
+      <Card.Title>Urgencias</Card.Title>
+      <Card.Text>
+      Tenemos un gran equipo de
+            medicos veterinarios capacitados para darle atención integral a tu
+            mascota las 24HS - 365 dias del Año. Algunos servicios para tu
+            mascota en nuestro consultorio.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={servicios7} />
+    <Card.Body>
+      <Card.Title>Asistencia todo el año</Card.Title>
+      <Card.Text>
+      Gracias a nuestra
               disponibilidad 24 horas los 365 dias del año,tambien podemos
-              ofrecerte el servicio de internacion.
-            </p>
-            <p>
-              En nuestras instalaciones tenemos espacios diferenciados para cada
-              necesidad,nuestro objetivo es que se sienta en casa
-            </p>
-            <p>
-              Contamos con un espacio separado del resto de la internacion de
-              pacientes infecto-contagiosos;con enfermedades como
-              parvovirus.moquillo o vif y vilef
-            </p>
-          </div>
-        </Row>
-      </div>
-
-      <div className="mb-5 letra1">
-        <img
-          src={servicios8}
-          className="float-right img-thumbnail borde"
-          width="304"
-          height="236"
-        ></img>
-
-        <p>
-          <i className="fas fa-paw patita2 mr-2"></i>Disponemos de un quirofano
+              ofrecerte el servicio de internacion.{' '}
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={servicios8} />
+    <Card.Body>
+      <Card.Title>Cirugias </Card.Title>
+      <Card.Text>
+      Disponemos de un quirofano
           completamente equipado para realizar todo tipo de cirugias;desde las
           mas sencilla hasta intervenciones quirurgicas de alta complejidad
-        </p>
-        <p>
-          Contamos con equipo de anestesia inhalatoria propio para asi brindarte
-          el mejor servicio y la mayor seguridad.
-        </p>
-        <p>
-          Ya sea que quieras programarla o que tu mascota la necesite de
-          emergencia, cualquier día en cualquier momento podés contar con
-          nosotros para cuidar a tu mejor amigo.
-        </p>
-      </div>
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</CardDeck>
+     
+      </section>
     </Container>
   );
 }

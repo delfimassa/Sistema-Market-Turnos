@@ -57,16 +57,10 @@ export default function Footer() {
             </div>
         <div className="col-sm-12 col-md-4 sm-mb-4">
             <div className="text-center">
-              <i className="fas fa-paw patita2 mr-2"></i>
-              <h4 className="text-white">Veterinaria</h4>
+            <Link to="/Home" className="nav-link text-white"> 
+              <i className="fas fa-paw patita2 mr-2">Veterinaria</i>
+             </Link>
             </div>
-            {/* <blockquote className="blockquote mt-4">
-              <p className="text-white">
-                Un veterinario no solo ama a los animales, los cuida hasta
-                silenciar un dolor mudo, que los humanos no podemos escuchar. -
-                J.C.-{" "}
-              </p>
-            </blockquote> */}
         </div>
         </div>
         <div className=" text-center text-light">
