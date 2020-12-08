@@ -3,9 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Inicio() {
   return (
-    <div>
-      <h3>INCIO</h3>
-     
+    <div className="mt-5">
             <Carousel>
   <Carousel.Item>
     <img

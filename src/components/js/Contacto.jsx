@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Container, Form, Button, Row } from "react-bootstrap";
+import { Container, Form, Button} from "react-bootstrap";
 export default function Contacto() {
   const [contacto, setContacto] = useState({
     subject: "",
@@ -52,11 +52,12 @@ export default function Contacto() {
     setContacto({ subject: "", mail: "", msg: "", mailuser: "" });
   };
   return (
-    <Fragment>
-      <Container>
-        <div className="row ">
-          <div className="col-12 col-md-6  mt-5">
-            <h3 className="fuente text-center">Formulario de Contacto</h3>
+    
+      <section className="container mt-5">
+        <div className="row mt-3"> 
+       
+          <div className="col-12 col-md-6 mt-5"> 
+          <h3 className=" text-center">Formulario de Contacto</h3>
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formNombre">
                 <Form.Label>Motivo del Contacto</Form.Label>
@@ -135,7 +136,7 @@ export default function Contacto() {
             </ul>
           </div>
         </div>
-      </Container>
-    </Fragment>
+      </section>
+    
   );
 }

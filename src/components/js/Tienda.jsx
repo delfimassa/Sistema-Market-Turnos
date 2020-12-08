@@ -3,20 +3,15 @@ import {
   Container,
   Row,
   Col,
-  Spinner,
   Carousel,
-  Button,
-  Nav,
-  Card,
-  Navbar,
-  ListGroup,
+  Nav
 } from "react-bootstrap";
 import Card_ViewUser from "./Card_ViewUser";
 import Paginacion from "../Paginacion";
 import balanced1 from "../img/balanced1.jpg";
 import balanced2 from "../img/balanced2.jpg";
 import purina1 from "../img/purina1.png";
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 
 export default function Tienda({
   ModalShow,
@@ -38,7 +33,6 @@ export default function Tienda({
   productos,
   setProductos,
   usuarioAuth,
-
   setToken,
   setUsuarioAuth,
   setAutenticado,
@@ -61,7 +55,7 @@ export default function Tienda({
 
   return (
     <>
-      <Container>
+      <Container className="mt-5">
         <Carousel>
           <Carousel.Item interval={500}>
             <img className="d-block w-100" src={purina1} alt="First slide" />
@@ -204,7 +198,7 @@ export default function Tienda({
           </Col>
         </Row>
         <Row>
-          <Col className="d-flex justify-content-center ">
+          <Col className="d-flex justify-content-center">
             {paginacionProductos ? (
               <Paginacion
                 paginacionData={productos}

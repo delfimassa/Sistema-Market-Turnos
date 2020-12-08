@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import { Container, Row } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import clinica from "../img/clinica.jpg";
 import cirugia from "../img/cirugia.jpg";
 import radiog from "../img/radiog.jpg";
@@ -20,13 +20,13 @@ const Card_Flipp = () => {
   };
 
   return (
-    <Container className="mb-5">
-      <Row>
-        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-          <div style={{ ...cardStyle }} className="text-center">
+    <Container className="mt-5  text-center">
+      <div  className="row  text-center">
+        <ReactCardFlip  isFlipped={isFlipped} flipDirection="horizontal "  >
+          <div style={{ ...cardStyle }} >
             <img
               src={clinica}
-              className="rounded-circle mt-5"
+              className="rounded-circle text-center mt-5" 
               width="236"
               height="236"
             />
@@ -37,8 +37,9 @@ const Card_Flipp = () => {
               Clínica
             </button>
           </div>
+         
 
-          <div style={{ ...cardStyle }} className="text-center">
+          <div style={{ ...cardStyle }} className="text-center ">
             <br />
             <br />
             <br />
@@ -52,10 +53,11 @@ const Card_Flipp = () => {
             >
               Clínica
             </button>
-          </div>
+            </div>
+
         </ReactCardFlip>
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-          <div style={{ ...cardStyle }} className="text-center">
+          <div style={{ ...cardStyle }} className="text-center ">
             <img
               src={cirugia}
               className="rounded-circle mt-5"
@@ -70,7 +72,7 @@ const Card_Flipp = () => {
             </button>
           </div>
 
-          <div style={{ ...cardStyle }} className="text-center">
+          <div style={{ ...cardStyle }} className="text-center ">
             <br />
             <br />
             <br />
@@ -88,7 +90,7 @@ const Card_Flipp = () => {
         </ReactCardFlip>
 
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-          <div style={{ ...cardStyle }} className="text-center">
+          <div style={{ ...cardStyle }} className="text-center ">
             <img
               src={radiog}
               className="rounded-circle mt-5"
@@ -103,7 +105,7 @@ const Card_Flipp = () => {
             </button>
           </div>
 
-          <div style={{ ...cardStyle }} className="text-center">
+          <div style={{ ...cardStyle }} className="text-center ">
             <br />
             <br />
             <br />
@@ -120,8 +122,8 @@ const Card_Flipp = () => {
           </div>
         </ReactCardFlip>
 
-        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-          <div style={{ ...cardStyle }} className="text-center">
+        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal" >
+          <div style={{ ...cardStyle }} className="text-center ">
             <img
               src={guardia}
               className="rounded-circle mt-5"
@@ -136,7 +138,7 @@ const Card_Flipp = () => {
             </button>
           </div>
 
-          <div style={{ ...cardStyle }} className="text-center">
+          <div style={{ ...cardStyle }} className="text-center ">
             <br />
             <br />
             <br />
@@ -152,7 +154,7 @@ const Card_Flipp = () => {
             </button>
           </div>
         </ReactCardFlip>
-      </Row>
+      </div>
     </Container>
   );
 };

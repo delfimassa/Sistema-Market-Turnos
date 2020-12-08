@@ -74,12 +74,12 @@
 }
 
 .nav-info {
-  background-color: #0a0a0a;
+  background-color: #024959;
 }
 /*50, 144, 166, 0.8*/
 /*(to right, rgba(50, 144, 166, 1), rgba(232, 176, 109, 0.6));*/
 .nav-info1{
-  background-color:rgba(12, 12, 12, 0.3);
+  background-color:#024959;
 }
 .src-header{
   color:rgb(102, 32, 66); 
@@ -107,7 +107,7 @@
 } 
 
 .patita2{
-  color: #DB4A0F;
+  color: #d99830;
   font-size: 2rem;
 } 
  
@@ -200,7 +200,7 @@ right:0;
   margin-bottom: 5px;
 }
 .orange{
-  background-color: #db711a;
+  background-color: #d99830;
   border:0;
   bottom:#2D1747 ;
 }
@@ -337,8 +337,7 @@ right:0;
   background-color:none;  
 }
 .navbar-toggler{
-  background-color: #ffc73b;
-  background-image: linear-gradient(0deg, #ffc73b 0%, #FF2525 65%);
+  background-color: #d99830;
 }
 
 .navnuevo{

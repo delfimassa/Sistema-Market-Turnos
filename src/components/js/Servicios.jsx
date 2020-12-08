@@ -33,8 +33,8 @@ const breakPoints = [
 export default function Servicios() {
   return (
     <Container>
-      <div>
-        <h3 className="fuente text-center mt-5"> Nuestros Servicos </h3>
+      <div className="container fluid mt-3">
+        <h3 className="text-center mt-5"> Nuestros Servicos </h3>
       </div>
       <div>
         <Carousel breakPoints={breakPoints}>

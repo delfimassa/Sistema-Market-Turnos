@@ -57,7 +57,7 @@ export default function Navegador({
               <Navbar.Brand>
                 <Link to="/Home" className="nav-link m-0">
                   <i className="fas fa-paw patita2 nav-link">
-                    <span className="patita2  m-0 p-0"> Veterinaria</span>
+                    <span className=" m-0 p-0"> Veterinaria</span>
                   </i>{" "}
                 </Link>{" "}
               </Navbar.Brand>

@@ -264,8 +264,8 @@ function App() {
     scrollTo(500);
   };
   return (
-      <Router>
-         <Navegador
+      <Router> 
+        <Navegador
                 ModalShow={ModalShow}
                 setModalShow={setModalShow}
                 prod={prod}
@@ -284,6 +284,7 @@ function App() {
                 setBanderaProductos1={setBanderaProductos1}
                 setSuma={setSuma}
               />
+
         <Switch>
           <Route path="/Admin">
             {autenticado && !usuarioAuth.isUser ? (
@@ -317,7 +318,8 @@ function App() {
               setAutenticado ={setAutenticado}
           />*/
             )}
-          </Route>
+          </Route >
+         
                   <Route path="/Home/Conocenos">
                     <Conocenos />
                   </Route>
