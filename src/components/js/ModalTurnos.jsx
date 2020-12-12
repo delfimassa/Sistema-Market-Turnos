@@ -246,7 +246,7 @@ export default function ModalTurnos({
               </Modal.Title>
             </Modal.Header>
             <div className="">
-              <p className="line anim-typewriter mt-3  fuente">
+              <p className="line anim-typewriter mt-3  fuente1">
                 Seleccione un Motivo de Consulta:
               </p>
               <Row>

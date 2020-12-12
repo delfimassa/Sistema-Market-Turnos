@@ -57,7 +57,7 @@ export default function Servicios() {
         </Carousel>
       </div>
 
-      <div className="jumbotron text-center container">
+      <div className="jumbotron text-center">
         <p className="letra1">
           Lo primero que tienes que saber es que amamos a los animales, tenemos
           personal dedicado y avocado a la salud de todos nuestros amigos
@@ -70,11 +70,11 @@ export default function Servicios() {
           <li>Cirugia</li>
           <li>Laboratorio propio</li>
           <li>Revision general</li>
-            <li>Asistencia integral</li>
-            <li>Vacunacion</li>
-            <li>Desparasitaciones</li>
-            <li>Certificado de salud</li>
-            <li>Colocacion de microchip en mascotas</li>
+          <li>Asistencia integral</li>
+          <li>Vacunacion</li>
+          <li>Desparasitaciones</li>
+          <li>Certificado de salud</li>
+          <li>Colocacion de microchip en mascotas</li>
         </ul>
       </div>
 <section className="row text-center justify-content-center py-3">

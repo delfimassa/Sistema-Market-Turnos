@@ -19,7 +19,7 @@ export default function Paginacion({
   } = paginacionData;
 
   return (
-    <Pagination className="nav-info">
+    <Pagination className="nav-info1">
       <Pagination.First
         className="nav-info"
         onClick={() => funcionGetData(1)}

@@ -101,8 +101,8 @@ export default function Navegador({
                       </Link>
 
                       {autenticado && !usuarioAuth.isUser ? (
-                        <Link to="/Admin" className="nav-link  text-white">
-                          Admin
+                        <Link to="/Admin" className="nav-link ">
+                          Admin 
                         </Link>
                       ) : (
                         ""
